@@ -24,7 +24,8 @@ pdf.image("img/Template.png", 0, 0)
 pdf.text(115, 145, proyecto)
 pdf.text(115, 160, horas_estimadas)
 pdf.text(115, 175, valor_hora)
-pdf.text(115, 190, str(presupuesto))
+pdf.text(115, 190, fecha_entrega)
+pdf.text(115, 205, str(presupuesto))
 
 #Generamos el archivo PDF
 pdf.output("Presupuesto.pdf")
