@@ -17,6 +17,8 @@ pdf = FPDF()
 pdf.add_page()
 #Configuramos tipografia
 pdf.set_font("Times", size = 12)
+#Configuracion de template para el documento
+pdf.image("img/Template.png", 0, 0)
 
 #Agregamos el contenido consultado para agregarlo al PDF
 pdf.text(115, 145, proyecto)
