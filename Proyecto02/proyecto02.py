@@ -11,6 +11,11 @@ close = data.Close
 #Realizar una grafica de los datos obtenidos
 close.plot()
 
+#Sacar maximo y min de cierres y redondeando a dos decimales
+maximo = round(close.max(), 2)
+minimo = round(close.min(), 2)
+promedio = round(close.mean(), 2)
+
 
 
 
