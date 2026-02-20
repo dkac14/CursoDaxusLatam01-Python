@@ -75,3 +75,57 @@ Este proyecto aplica Python para automatizar el envío de correos electrónicos,
 - Integrar análisis de datos con automatización de procesos
 
 - Aplicar Python en escenarios reales de productividad y automatización
+
+## 📄 Proyecto N.º 4: Detección de Manos en Tiempo Real con Python ✋🤖
+
+Este proyecto utiliza Python para implementar un sistema de detección de manos en tiempo real mediante el uso de visión artificial y una cámara web.
+
+### 📌 ¿Qué hace el programa?
+
+1. Activa la cámara web del equipo.
+
+2. Captura video en tiempo real.
+
+3. Detecta una o dos manos utilizando inteligencia artificial.
+
+4. Muestra la imagen procesada en una ventana gráfica.
+
+5. Finaliza la ejecución al presionar cualquier tecla.
+
+### 🛠️ Tecnologías utilizadas
+
+- Python como lenguaje de programación.
+
+- OpenCV (cv2) para captura y visualización de video.
+
+- cvzone para la detección de manos.
+
+- MediaPipe como motor de inteligencia artificial para visión computacional.
+
+### 🎯 ¿Para qué sirve este proyecto?
+
+- Comprender los fundamentos de la visión artificial.
+
+- Aplicar detección de manos mediante inteligencia artificial.
+
+- Integrar cámara web con procesamiento en tiempo real.
+
+- Servir como base para proyectos de interacción humano–computadora.
+
+- Introducir conceptos prácticos de IA aplicada.
+
+### ▶️ Requisitos de ejecución
+
+- Python 3.11
+
+- Cámara web funcional
+
+### Librerías instaladas:
+
+```pip install opencv-python cvzone mediapipe```
+
+### ✅ Observaciones
+
+El programa depende de la iluminación del entorno.
+
+Se recomienda no mover la cámara durante la ejecución.
